@@ -18,17 +18,15 @@
 			<div class="row panel">
 				<div class="col-md-2">Amount:</div>
 				<div class="col-md-10">
-					<input type="text" oninput="convertCurrency()" class="form-control" id="amount"/>
+					<input type="text" class="form-control" id="amount"/>
 				</div>
 				<div class="row">
 					<div class="col-md-2">From:</div>
-					<div class="col-md-4"><select onchange="convertCurrency()" id="from"></select></div>
+					<div class="col-md-4"><select id="from"></select></div>
 					<div class="col-md-2">From:</div>
-					<div class="col-md-4"><select onchange="convertCurrency()" id="to"></select></div>
-					<div class="row">
-						Result:<span id=result></span>
-						
-					</div>
+					<div class="col-md-4"><select id="to"></select></div>
+					<button class="btn btn-primary convert-box" onclick="convertCurrency()">CONVERT</button>
+					<div class="result"><span id="result"></span></div>						
 				</div>
 			</div>
 		</div>

@@ -14,3 +14,15 @@ div.row{
 .panel{
 	border-color: darkblue;
 }
+.convert-box{
+	align-items: center;
+	margin-top:20px;
+	margin-left: 125px;
+}
+.result{
+	margin-top:35px;
+	margin-left: 120px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
